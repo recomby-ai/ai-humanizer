@@ -1,0 +1,10 @@
+{
+  "name": "ai-humanizer",
+  "description": "Lower the AI-detection score of English text without changing what it says. Keyless ZeroGPT baseline, the running agent as the rewriter, verbatim term preservation, before/after diff, and Turnitin/GPTZero PDF report reading.",
+  "version": "1.0.0",
+  "author": { "name": "recomby-ai" },
+  "license": "MIT",
+  "homepage": "https://github.com/recomby-ai/ai-humanizer",
+  "repository": "https://github.com/recomby-ai/ai-humanizer",
+  "keywords": ["ai-detection", "humanizer", "paraphrase", "academic-writing", "turnitin", "gptzero", "zerogpt", "claude-skill"]
+}

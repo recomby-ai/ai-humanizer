@@ -1,0 +1,7 @@
+# Maintainer handoff doc — private by default
+CLAUDE.md
+
+# OS / editor noise
+.DS_Store
+node_modules/
+*.log
