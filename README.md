@@ -56,6 +56,13 @@ The skill will:
 4. Re-detect and loop (up to ~5 rounds), keeping the best version.
 5. **Verify** every protected term survived, then show a **before → after** report with a sentence-level diff.
 
+## Examples
+
+Real before/after runs are in [`examples/`](examples/):
+
+- [Nursing essay](examples/01-nursing-essay.md) — normal academic domain, **100% → 11.1%** in one round, 7/7 terms kept.
+- [Clinical meta-analysis](examples/02-clinical-saturated-domain.md) — a detector-*saturated* domain. Two independent rewrites scored **0%** and **26.5%** under identical rules (14/14 terms kept) — the clearest illustration of why best-of-N matters and why the skill won't over-promise.
+
 ## Why these rules (the short version)
 
 The detailed evidence is in [`reference/principles.md`](plugins/ai-humanizer/skills/ai-humanizer/reference/principles.md). The headline findings, measured against ZeroGPT with confirmed-human baselines:
